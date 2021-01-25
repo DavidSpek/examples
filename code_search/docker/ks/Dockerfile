@@ -1,4 +1,4 @@
-FROM debian:7
+FROM debian:10
 
 RUN apt-get update && apt-get install -y wget ca-certificates git-core &&\
     rm -rf /var/lib/apt/lists/*
