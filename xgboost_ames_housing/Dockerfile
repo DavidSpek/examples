@@ -16,7 +16,7 @@
 FROM ubuntu:18.04
 
 # Install python 2.7.
-FROM python:2.7
+FROM python:3.9.1
 
 RUN apt-get update
 RUN apt-get install -y git make g++
