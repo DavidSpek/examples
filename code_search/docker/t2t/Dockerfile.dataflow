@@ -2,7 +2,7 @@
 #
 # We don't use the Docker image used for running the training jobs
 # because we have different versioning requirements.
-FROM python:2.7-jessie
+FROM python:3.6.9-jessie
 
 # These dependencies are primarily needed with Dataflow
 # so we need to install them for Python2.
