@@ -126,7 +126,7 @@ pandas-summary==0.0.41
 pandocfilters==1.4.2
 parso==0.1.0
 partd==0.3.8
-path.py==10.3.1
+path.py==12.5.0
 pathlib==1.0.1
 pathlib2==2.3.0
 pathos==0.2.1
