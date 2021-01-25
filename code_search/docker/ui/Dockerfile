@@ -1,4 +1,4 @@
-FROM python:2.7-jessie
+FROM python:3.6.9-jessie
 
 RUN apt-get update && apt-get install -y curl &&\
     rm -rf /var/lib/apt/lists/*
