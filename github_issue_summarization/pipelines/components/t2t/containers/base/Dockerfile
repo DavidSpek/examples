@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-FROM tensorflow/tensorflow:1.12.0-gpu
+FROM tensorflow/tensorflow:2.4.1-gpu
 
 RUN apt-get update -y
 
