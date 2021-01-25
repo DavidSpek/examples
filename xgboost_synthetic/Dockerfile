@@ -4,7 +4,7 @@
 # It also includes the dependencies required for training and deploying
 # this way we can use it as the base image
 # Note: when using ClusterBuilder I believe the base image gets over written
-FROM gcr.io/kubeflow-images-public/tensorflow-1.14.0-notebook-cpu:v0.7.0
+FROM gcr.io/kubeflow-images-public/tensorflow-1.14.0-notebook-cpu:v1.0.0
 
 COPY requirements.txt .
 
