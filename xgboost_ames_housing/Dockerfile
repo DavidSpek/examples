@@ -13,7 +13,7 @@
 # limitations under the License.
 
 # Use an official Ubuntu 18.04 as parent image
-FROM ubuntu:18.04
+FROM ubuntu:20.04
 
 # Install python 2.7.
 FROM python:2.7
