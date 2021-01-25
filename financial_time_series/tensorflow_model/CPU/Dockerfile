@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-FROM tensorflow/tensorflow:1.15.0-py3
+FROM tensorflow/tensorflow:2.2.2-py3
 
 # install gcloud
 RUN apt-get update && apt-get install -y jq
