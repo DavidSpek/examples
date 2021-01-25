@@ -1,4 +1,4 @@
-FROM tensorflow/tensorflow:2.0.0a0-py3
+FROM tensorflow/tensorflow:2.2.2-py3
 
 # pip install
 COPY requirements.txt /scripts/requirements.txt
